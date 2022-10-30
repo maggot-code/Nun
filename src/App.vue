@@ -3,7 +3,7 @@
  * @Author: maggot-code
  * @Date: 2022-10-30 19:26:27
  * @LastEditors: maggot-code
- * @LastEditTime: 2022-10-31 00:24:32
+ * @LastEditTime: 2022-10-31 00:26:27
  * @Description: 
 -->
 <script setup>
@@ -14,7 +14,7 @@ const gateway = serviceGateway();
 
 <template>
     <main class="app">
-        <section class="app-layout app-client">
+        <section class="app-layout app-client">尝试吸吸新粉✨（按出境顺序）
             <el-tag>应用</el-tag>
         </section>
         <section class="app-layout">
