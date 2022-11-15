@@ -3,7 +3,7 @@
  * @Author: maggot-code
  * @Date: 2022-10-30 19:26:27
  * @LastEditors: maggot-code
- * @LastEditTime: 2022-11-13 23:08:16
+ * @LastEditTime: 2022-11-15 22:44:26
  * @Description:
  */
 import path from "path";
@@ -21,10 +21,6 @@ export default defineConfig(() => {
         clearScreen: true,
         resolve: {
             alias: [
-                {
-                    find: "genesis",
-                    replacement: path.resolve(projectRootDir, 'internal'),
-                },
                 {
                     find: "@",
                     replacement: path.resolve(projectRootDir, 'src')
