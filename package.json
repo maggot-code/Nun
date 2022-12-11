@@ -8,6 +8,9 @@
         "build": "vue-tsc && vite build",
         "preview": "vite preview --host"
     },
+    "workspaces": [
+        "packages/*"
+    ],
     "dependencies": {
         "@vueuse/core": "^9.5.0",
         "ant-design-vue": "^3.2.15",
@@ -22,6 +25,7 @@
         "@types/node": "^18.11.9",
         "@types/uuid": "^8.3.4",
         "@vitejs/plugin-vue": "^3.2.0",
+        "@vue/reactivity": "^3.2.45",
         "sass": "^1.56.1",
         "typescript": "^4.9.3",
         "unocss": "^0.46.5",

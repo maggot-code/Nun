@@ -32,6 +32,9 @@
         "paths": {
             "@/*": [
                 "src/*"
+            ],
+            "nun/*": [
+                "packages/*"
             ]
         },
     },
@@ -45,7 +48,8 @@
         "src/**/*.ts",
         "src/**/*.d.ts",
         "src/**/*.tsx",
-        "src/**/*.vue"
+        "src/**/*.vue",
+        "packages/**/*.ts"
     ],
     "references": [
         {

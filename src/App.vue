@@ -3,12 +3,16 @@
  * @Author: maggot-code
  * @Date: 2022-11-16 00:09:32
  * @LastEditors: maggot-code
- * @LastEditTime: 2022-11-20 18:49:28
+ * @LastEditTime: 2022-12-11 15:54:12
  * @Description: 
 -->
-<script setup lang='ts'></script>
+<script setup lang='ts'>
+import { } from "nun";
+</script>
 
-<template></template>
+<template>
+    <input type="text">
+</template>
 
 <style scoped lang='scss'>
 

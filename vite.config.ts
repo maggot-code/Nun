@@ -3,7 +3,7 @@
  * @Author: maggot-code
  * @Date: 2022-11-16 00:09:32
  * @LastEditors: maggot-code
- * @LastEditTime: 2022-11-16 00:34:35
+ * @LastEditTime: 2022-12-11 15:53:57
  * @Description:
  */
 import { resolve } from "path";
@@ -15,6 +15,7 @@ import { AntDesignVueResolver } from "unplugin-vue-components/resolvers";
 
 const alias = {
     "@": resolve(__dirname, "src"),
+    "nun": resolve(__dirname, "packages"),
 };
 const importsLodash = ["isNil", "isObject", "isNumber", "isArray", "toArray", "cloneDeep", "merge"];
 
