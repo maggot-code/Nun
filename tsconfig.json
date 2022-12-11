@@ -22,12 +22,14 @@
         "declaration": true,
         "declarationMap": false,
         "suppressImplicitAnyIndexErrors": true,
+        "allowSyntheticDefaultImports": true,
         "lib": [
             "ESNext",
             "DOM"
         ],
         "typeRoots": [
-            "./node_modules/@types/"
+            "./node_modules/@types/",
+            "./packages/index.ts"
         ],
         "paths": {
             "@/*": [
@@ -43,6 +45,7 @@
         "dist"
     ],
     "include": [
+        "vite.config.ts",
         "./auto-imports.d.ts",
         "./components.d.ts",
         "src/**/*.ts",
@@ -50,10 +53,5 @@
         "src/**/*.tsx",
         "src/**/*.vue",
         "packages/**/*.ts"
-    ],
-    "references": [
-        {
-            "path": "./tsconfig.node.json"
-        }
     ]
 }

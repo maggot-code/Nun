@@ -8,9 +8,6 @@
         "build": "vue-tsc && vite build",
         "preview": "vite preview --host"
     },
-    "workspaces": [
-        "packages/*"
-    ],
     "dependencies": {
         "@vueuse/core": "^9.5.0",
         "ant-design-vue": "^3.2.15",

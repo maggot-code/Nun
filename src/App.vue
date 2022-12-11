@@ -3,11 +3,14 @@
  * @Author: maggot-code
  * @Date: 2022-11-16 00:09:32
  * @LastEditors: maggot-code
- * @LastEditTime: 2022-12-11 15:54:12
+ * @LastEditTime: 2022-12-11 17:04:50
  * @Description: 
 -->
 <script setup lang='ts'>
-import { } from "nun";
+import { createField } from "nun/usecase/createField";
+
+const field = createField();
+console.log(field);
 </script>
 
 <template>

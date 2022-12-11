@@ -3,7 +3,10 @@
  * @Author: maggot-code
  * @Date: 2022-12-11 15:52:17
  * @LastEditors: maggot-code
- * @LastEditTime: 2022-12-11 15:52:21
+ * @LastEditTime: 2022-12-11 17:21:46
  * @Description: 
  */
-export default {}
+export function createField() {
+    return {}
+}
+export default createField;
